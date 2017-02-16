@@ -1,0 +1,120 @@
+/*Helper Classes*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+  flex: 1;
+}
+
+.center-v {
+  align-items: center;
+}
+
+.center-h {
+  justify-content: center;
+}
+
+.flex {
+  flex: 1;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*Page styling*/
+
+/*General Styling*/
+header, section:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.button {
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 8px 15px;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/*Header*/
+header nav a {
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
+  border-color: transparent;
+}
+
+header nav a + a {
+  margin-left: 40px;
+}
+
+header nav a.active {
+  border-color: #000;
+}
+
+header nav a:hover {
+  border-color: #000;
+}
+
+/*Hero*/
+.hero {
+  padding: 40px 0;
+}
+
+.hero .column-image {
+  width: 60%;
+  padding-left: 40px;
+}
+
+.hero .image {
+  display: block;
+  height: 200px;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/94685/pexels-photo-94685.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+}
+
+/*Features*/
+.features  {
+  padding: 40px 0;
+}
+
+.features .column:not(:first-child) {
+  margin-left: 20px;
+}
+
+.features .column:not(:last-child) {
+  margin-right: 20px;
+}
+
+.features .image {
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+
+.features .image-time {
+  background-image: url('https://images.pexels.com/photos/1778/numbers-time-watch-white.jpg?h=350&auto=compress&cs=tinysrgb');
+}
+
+.features .image-simple {
+  background-image: url('https://images.pexels.com/photos/6368/art-wall-brush-painting.jpg?h=350&auto=compress&cs=tinysrgb')
+}
+
+.features .image-cloud {
+  background-image: url('https://images.pexels.com/photos/68806/pexels-photo-68806.jpeg?w=940&h=650&auto=compress&cs=tinysrgb')
+}
