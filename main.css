@@ -101,6 +101,10 @@ header nav a:hover {
   margin-right: 20px;
 }
 
+.features h4 {
+  text-align: center;
+}
+
 .features .image {
   display: block;
   height: 100px;
